@@ -1,0 +1,11 @@
+.navbar{
+  background:#2364aa ;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #ea7317;
+    
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+  color: #3da5d9;
+}
