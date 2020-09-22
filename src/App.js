@@ -1,13 +1,16 @@
 import React from 'react';
 import { Layout } from '../components/Layout';
+import { Footer } from './components/footers';
 
 
 function App() {
   return (
+     <React.Fragment>
     <Layout className='container'>
-      <h1>Hola Yosliana pronto será tú portafolio</h1>
-     
+    
     </Layout>
+    <Footer />
+     </React.Fragment>
   );
 }
 

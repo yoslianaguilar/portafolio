@@ -1,11 +1,187 @@
+
+body{
+  background: #FEE8EE;
+}
 .navbar{
-  background:#2364aa ;
+
+background:#624B59; 
+
 }
 .navbar-light .navbar-nav .nav-link {
-    color: #ea7317;
-    
+    color: #fff;    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: x-large
 }
 
 .navbar-light .navbar-nav .nav-link:hover{
-  color: #3da5d9;
+  color:#FFEFF5 ;
+  
 }
+
+.navbar-light .navbar-brand {
+    color: #FFEFF5;
+    font-size: xx-large;
+ font-weight: bold;
+ font-style: oblique;
+   font-family: Georgia;
+}
+
+.information {
+  
+  padding: 30px;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  line-height:75px;
+
+  }
+
+  /*
+.about{
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+font-family: Georgia;
+font-size: x-large;
+color: #424242;
+justify-content: space-evenly; 
+}
+
+.profession{
+  width: 50%;
+  line-height:25px;
+  font-size: 2em;
+    font-family: Georgia;
+    letter-spacing: 0.06em;
+    text-align: justify;
+}
+
+.education{
+  width: 50%;
+  line-height:2em;
+  font-size: 20%;
+    font-family: Georgia;
+    letter-spacing: 0.06em;
+    text-align: justify;
+  ;
+}
+.proyect{
+
+  background: chartreuse;
+  display: flex;
+  flex-direction: row;     
+  justify-content: space-evenly; 
+   align-items: center;     
+    height: 300px;
+
+}
+*/
+/*
+.fa-envelope-open-text{
+color:#424242;
+font-size: xx-large;
+ font-weight: bold;
+ font-style: oblique;
+ line-height:50px;
+}
+.fa-map-marker-alt{
+color:#424242;
+font-size: xx-large;
+ font-weight: bold;
+ font-style: oblique;
+ line-height:50px;
+}
+
+.fa-phone-volume{
+color:#424242;
+font-size: xx-large;
+ font-weight: bold;
+  font-style: oblique;
+   line-height:50px;
+}
+
+.fa-github{
+color:#424242;
+font-size: xx-large;
+ font-weight: bold;
+  font-style: oblique;
+   line-height:50px;
+
+}
+
+.fa-linkedin{
+color:#424242;
+font-size: xx-large;
+ font-weight: bold;
+  font-style: oblique;
+   line-height:50px;
+}
+
+.fa-id-card-alt{
+ color:#424242;
+font-size: xx-large;
+ font-weight: bold;
+  font-style: oblique;
+   line-height:50px
+}
+
+.photo{
+  max-width: 360px;
+    width: 90%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: solid 6px  #624B59;
+    display:block;
+    margin:auto;
+     
+  }
+  .home {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 2em;
+    font-family: Georgia;
+    letter-spacing: 0.05em;
+    text-align: justify;
+    color: #424242;
+     font-style: oblique;
+    
+  }
+  .contact{
+     line-height:100px;
+    font-size: 1.25rem;
+    color:#575757;
+font-size: xx-large;
+ font-weight: bold;
+ font-family: Georgia;
+  }*/
+/*
+.cargo{
+   font-weight: bold;
+ 
+}
+
+p{
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: space-between;
+}
+
+
+.footer { 
+  display:flex;
+  justify-content:right;
+  background-color: #624B59;
+  font-size: large;
+  font-weight: bold;
+  font-family: Georgia;
+  color:#FEE8EE; 
+  padding-top:15px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-style: oblique;
+}
+*/

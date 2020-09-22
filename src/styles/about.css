@@ -1,0 +1,167 @@
+*{
+  box-sizing: border-box;
+}
+
+/*
+.content{
+  display: flex;
+    border: blue 5px solid;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1273px;
+    margin: auto;
+}
+*/
+
+.about{
+    flex-grow: 1;
+    padding: 2px;
+    min-width: 150px;
+}
+
+.proyect{
+        margin-top: 0%;
+    /* justify-content: space-evenly; */
+    /* display: flex; */
+    border: 2px solid yellow;
+    /* flex-grow: 1; */
+    /* padding: 2px; */
+    min-width: 150px;
+}
+
+.experiencie{
+  border: 5px solid green;
+  border-left: 2px solid slateblue;
+
+}
+
+
+
+.habilidades{
+  display: flex;
+  margin-top: 2%;
+  min-width: 200px;
+  border: 5px solid red;
+}
+
+
+h2{
+  display: flex;
+  margin-top: 3%;
+}
+
+ul{
+  display: flex;
+}
+
+li{
+  list-style: none;
+}
+
+
+.cargo{
+font-weight: bold;
+}
+
+.photo{
+max-width: 360px;
+width: 90%;
+border-radius: 50%;
+margin-bottom: 20px;
+border: solid 6px  #624B59;
+display:block;
+margin:auto;
+}
+
+.home {
+margin-top: 30px;
+margin-bottom: 30px;
+font-size: 2em;
+font-family: Georgia;
+letter-spacing: 0.05em;
+text-align: justify;
+color: #424242;
+font-style: oblique;
+}
+
+.footer { 
+display:flex;
+justify-content:left;
+background-color: #624B59;
+font-size: large;
+font-weight: bold;
+font-family: Georgia;
+color:#FEE8EE; 
+padding-top: 10px;
+position: fixed;
+bottom: 0%;
+width: 100%;
+font-style: oblique;
+}
+
+.information {
+  
+  padding: 30px;
+  flex-direction: column;
+  align-items: center;
+
+ 
+  line-height:75px;
+}
+
+.contact{
+line-height:100px;
+font-size: 1.25rem;
+color:#424242;
+font-size: xx-large;
+font-weight: bold;
+font-family: Georgia;
+  }
+
+.fa-envelope-open-text{
+color:#424242;
+font-size: xx-large;
+ font-weight: bold;
+ font-style: oblique;
+ line-height:50px;
+}
+.fa-map-marker-alt{
+color:#424242;
+font-size: xx-large;
+ font-weight: bold;
+ font-style: oblique;
+ line-height:50px;
+}
+
+.fa-phone-volume{
+color:#424242;
+font-size: xx-large;
+ font-weight: bold;
+  font-style: oblique;
+   line-height:50px;
+}
+
+.fa-github{
+color:#424242;
+font-size: xx-large;
+ font-weight: bold;
+  font-style: oblique;
+   line-height:50px;
+
+}
+
+.fa-linkedin{
+color:#424242;
+font-size: xx-large;
+ font-weight: bold;
+  font-style: oblique;
+   line-height:50px;
+}
+
+.fa-id-card-alt{
+ color:#424242;
+font-size: xx-large;
+ font-weight: bold;
+  font-style: oblique;
+   line-height:50px
+}
