@@ -2,6 +2,33 @@
   box-sizing: border-box;
 }
 
+body{
+  background: #FEE8EE;
+}
+.navbar{
+
+background:#624B59; 
+
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: x-large
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+  color:#FFEFF5 ;
+  
+}
+
+.navbar-light .navbar-brand {
+    color: #FFEFF5;
+    font-size: xx-large;
+ font-weight: bold;
+ font-style: oblique;
+   font-family: Georgia;
+}
+
 /*
 .content{
   display: flex;
@@ -104,7 +131,8 @@ font-style: oblique;
   padding: 30px;
   flex-direction: column;
   align-items: center;
-
+ display: flex;
+  justify-content: center;
  
   line-height:75px;
 }
