@@ -7,7 +7,7 @@ export const ContactsPage = () =>{
     <Layout>
       <div className='information'>
         <i class="fas fa-id-card-alt"></i>
-        <h3 className='contact' >¡Contáctame!</h3>
+        <h3 className='contact'>¡Contáctame!</h3>
       <p class="fas fa-envelope-open-text"> yoslianaguilar@gmail.com</p>
       <p class="fas fa-map-marker-alt"> Santiago centro, Santiago</p>
       <p class="fas fa-phone-volume"> +56-931-08-2593</p>

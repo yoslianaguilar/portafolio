@@ -33,42 +33,43 @@ export const AboutPage = () =>{
         <div className='experiencie'>
           <h2> Educación </h2>
             <div className="education"> 
+            <li className='empresa'>Bootcamp con certificación como Developer Front-end</li>
             <li className='cargo'>Laboratoria</li> 
-            <li>Santiago – Chile </li>
-            Bootcamp con certificación como Developer Front-end 
+            <li>Santiago – Chile </li> <br/>
+            
+            <li className='empresa'>Ingeniero Industrial</li>
             <li className='cargo'>Instituto Universitario Politecnico “Santiago Mariño”</li>
-            Maturín – Estado Monagas
-            Ingeniero Industrial
+            <li>Maturín – Estado Monagas</li><br/>
+            <li className='empresa'>Técnico Superior Universitario en Informática</li>
             <li className='cargo'>Universidad Politecnica Territorial del Nortes de Monagas "Ludovico
             Silva"</li>
-            Caripito – Estado Monagas
-            Técnico Superior Universitario en Informática
+            <li>Caripito – Estado Monagas</li><br/>
             </div>
           
             <h2> Experiencia Profesional </h2>
           
             <div className="jobs">
-              <li>Business and Life School. Departamento de Ventas Online</li>
+              <li className='empresa'>Business and Life School. Departamento de Ventas Online</li>
               <li>Enero 2019 – Actualmente. México</li>
               <li className='cargo'>Asesor Comercial</li>
-              Funciones: Diseño y publicación de estrategias de marketing en RRSS,
+              <p>Funciones: Diseño y publicación de estrategias de marketing en RRSS,
               captación y atención de clientes, cierre de ventas y seguimiento a través
-              plataformas remotas.
-              <li>PDVSA Petróleos de Venezuela S.A. Departamento de Planificación, Control y
+              plataformas remotas.</p> <br/>
+              <li className='empresa'>PDVSA Petróleos de Venezuela S.A. Departamento de Planificación, Control y
               Gestión. Gerencia de Mantenimiento</li>
               <li>Octubre 2017 – Septiembre 2019. Venezuela</li>
               <li className='cargo'>Planificador de Proyecto</li>
-              Funciones: Planificación y seguimiento planes de mantenimiento, mediante la
+              <p>Funciones: Planificación y seguimiento planes de mantenimiento, mediante la
               estimación de los recursos requeridos como; planes de contratación, procura,
-              coordinación logística.
-              <li>PDVSA Petróleos de Venezuela S.A. Departamento de Planificación, Control y
+              coordinación logística.</p><br/>
+              <li className='empresa'>PDVSA Petróleos de Venezuela S.A. Departamento de Planificación, Control y
               Gestión. Gerencia de Mantenimiento</li>
               <li>Enero 2010 – Octubre 2017. Venezuela</li>
               <li className='cargo'>Analista de Presupuesto</li>
-              Funciones: Preparar y cargar en sistema Sap el presupuesto, analizar y
+              <p>Funciones: Preparar y cargar en sistema Sap el presupuesto, analizar y
               presentar los indicadores de gestión, elaborar y controlar el Plan de
               Capitalización, realizar seguimiento al perfil de desembolso de la gerencia de
-              Mantenimiento.
+              Mantenimiento.</p><br/>
             </div>
           </div>
 
@@ -83,6 +84,9 @@ export const AboutPage = () =>{
             <img src={NODE} alt='node'/>
           </div> 
       
+      <di>
+        <h2>Intereses</h2>
+      </di>
       </div>
       
     </Layout>
