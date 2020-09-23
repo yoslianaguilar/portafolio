@@ -10,6 +10,11 @@ import CSS from '../images/CSS.jpg';
 import HTML from '../images/HTML.jpg';
 import REACT from '../images/REACT.jpg';
 import NODE from '../images/NODE.jpg';
+import invision from '../images/invision.jpeg';
+import slack from '../images/slack.jpeg';
+import github from '../images/github.jpeg';
+import firebase from '../images/firebase.jpeg';
+import figma from '../images/figma.jpeg';
 import '../styles/about.css'
 
 
@@ -82,6 +87,12 @@ export const AboutPage = () =>{
             <img src={JS} alt='js'/>
             <img src={REACT} alt='react'/>
             <img src={NODE} alt='node'/>
+            <img src={firebase} alt='node'/>
+            <img src={github} alt='node'/>
+            <img src={slack} alt='node'/>
+            <img src={invision} alt='node'/>
+            <img src={figma} alt='node'/>
+            
           </div> 
       
       <di>
