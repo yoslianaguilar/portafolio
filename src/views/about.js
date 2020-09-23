@@ -78,9 +78,9 @@ export const AboutPage = () =>{
             </div>
           </div>
 
-            <h2> Habilidades Técnicas </h2>  
+            <h2> Habilidades y Herramientas </h2>  
           
-          <div className='about'>   
+          <div className='habilidades'>   
                
             <img src={HTML} alt='html'/>
             <img src={CSS} alt='css'/>
